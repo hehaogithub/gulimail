@@ -68,7 +68,7 @@ public class SysLoginController extends AbstractController {
 		if(!captcha){
 			return R.error("验证码不正确");
 		}
-q
+
 		//用户信息
 		SysUserEntity user = sysUserService.queryByUserName(form.getUsername());
 
